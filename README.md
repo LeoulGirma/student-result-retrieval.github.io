@@ -168,6 +168,9 @@ The load test aimed to simulate realistic and high-concurrency user interactions
 - **Virtual Users (VUs)**: Handled **3,000 VUs** smoothly, sustaining ~**1,438 requests/s**
 
 #### 7.3.2. System Resource Utilization 🖥️
+![CPU usage](CPU.jpg)  ![RAM usage](RAM.jpg)
+
+
 
 - **Testing Machine**: Core i5 10300H (4 cores, 8 threads @ 2.4 GHz) with **16 GB DDR4 RAM**
 - **CPU Usage**: Peaked at **500%**, indicating utilization across 5 logical processors (since 100% represents one logical processor). Stayed mostly between **100%** to **300%**.
